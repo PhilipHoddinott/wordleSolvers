@@ -69,6 +69,7 @@ fprintf('%d possible choices\n',length(curList));
 
 function outVal = postionLet(curWord,postionLetters)
     % deal with letters known to be in that postion
+    outVal = 0;
     for j = 1:length(postionLetters)
         if postionLetters(j)~=' ' % ignore unknown positons
             if curWord(j)~=postionLetters(j) % if the letter in that postion does not match
