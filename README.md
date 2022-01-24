@@ -3,6 +3,8 @@ MATLAB Wordle Tools
 
 Pretty simple MATLAB tool to help you solve wordle: https://www.powerlanguage.co.uk/wordle/
 
+For HoddinottWordleSolver.m
+
 To use make a guess on wordle. ADIEU is a good one. Then edit the foillowing variables:  
 
 1. knockOutLetters, with the black letters
@@ -21,3 +23,8 @@ postionLetters = ['a',' ',' ',' ',' '];
 knowNotPostionLetter = ["";"";"i";"e";""];
 
 And a handy list of guesses wll be outputted. 
+
+For HoddinottWordleSolverAuto.m
+
+This uses the same logic but automaticaly guesses the wordle. Can only be used once wordle has been solved. 
+If you want practice wordles use webarchive: http://web.archive.org/web/*/https://www.powerlanguage.co.uk/wordle/
